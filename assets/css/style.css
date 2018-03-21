@@ -1,0 +1,130 @@
+/* INICIO RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* FIN RESET */
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+h1, h2, h3 {
+	font-family: 'El Rio Lobo';
+}
+header {
+	position: relative;
+	background: #a32237;
+	text-align: center;
+	height: 220px;
+}
+header .container {
+	position: relative;
+	padding-top: 50px;
+}
+header h1 {
+	font-size: 3em;
+	color: #f4b030;
+}
+header p {
+	font-size: 2em;
+	color: white;
+	font-weight: 200;
+}
+.seccion_1 {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: #1189c1;
+}
+.seccion_1 .container {
+	position: relative;
+	padding: 20px;
+}
+.seccion_1 .container img {
+	width: 800px;
+	max-width: 100%;
+	height: auto;
+}
+.seccion_2 {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/cuzco2.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 2000px;
+}
+.seccion_2 .container {
+	height: 800px;
+}
+.seccion_2 .container h1 {
+	font-size: 3em;
+	color: #f4b030;
+}
+.seccion_2 .container p {
+	color: white;
+	font-size: 2em;
+}
+.seccion_3 {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.seccion_3 .container {
+	width: 60%;
+	height: 700px;
+	margin: 0 auto;
+}
+.seccion_3 .container h1{
+	color: black;
+	font-size: 6em;
+	font-weight: 600;
+}
+.seccion_3 .container h2{
+	color: black;
+	text-align: left;
+	font-size: 6em;
+	font-weight: 400;
+}
